@@ -6,30 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EDC0049D2D7E4CA5009698E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC004912D7E4CA5009698E2 /* ViewController.swift */; };
+		EDC0049E2D7E4CA5009698E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC004962D7E4CA5009698E2 /* AppDelegate.swift */; };
+		EDC0049F2D7E4CA5009698E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0049B2D7E4CA5009698E2 /* SceneDelegate.swift */; };
+		EDC004A02D7E4CA5009698E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC004972D7E4CA5009698E2 /* Assets.xcassets */; };
+		EDC004A22D7E4CA5009698E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0049A2D7E4CA5009698E2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EDC0044B2D7E4487009698E2 /* PetTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC004912D7E4CA5009698E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC004962D7E4CA5009698E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC004972D7E4CA5009698E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC004982D7E4CA5009698E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC004992D7E4CA5009698E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC0049B2D7E4CA5009698E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EDC0045D2D7E4488009698E2 /* Exceptions for "PetTranslator" folder in "PetTranslator" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EDC0044A2D7E4487009698E2 /* PetTranslator */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EDC0044D2D7E4487009698E2 /* PetTranslator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EDC0045D2D7E4488009698E2 /* Exceptions for "PetTranslator" folder in "PetTranslator" target */,
-			);
-			path = PetTranslator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EDC004482D7E4487009698E2 /* Frameworks */ = {
@@ -45,7 +38,7 @@
 		EDC004422D7E4487009698E2 = {
 			isa = PBXGroup;
 			children = (
-				EDC0044D2D7E4487009698E2 /* PetTranslator */,
+				EDC0049C2D7E4CA5009698E2 /* PetTranslator */,
 				EDC0044C2D7E4487009698E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +49,59 @@
 				EDC0044B2D7E4487009698E2 /* PetTranslator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC004922D7E4CA5009698E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC004912D7E4CA5009698E2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDC004932D7E4CA5009698E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDC004952D7E4CA5009698E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDC0049C2D7E4CA5009698E2 /* PetTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				EDC004A32D7E4D14009698E2 /* Application */,
+				EDC004932D7E4CA5009698E2 /* Models */,
+				EDC004952D7E4CA5009698E2 /* Views */,
+				EDC004922D7E4CA5009698E2 /* Controllers */,
+				EDC004A42D7E4D28009698E2 /* Resources */,
+			);
+			path = PetTranslator;
+			sourceTree = "<group>";
+		};
+		EDC004A32D7E4D14009698E2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EDC004962D7E4CA5009698E2 /* AppDelegate.swift */,
+				EDC0049B2D7E4CA5009698E2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EDC004A42D7E4D28009698E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDC004972D7E4CA5009698E2 /* Assets.xcassets */,
+				EDC0049A2D7E4CA5009698E2 /* LaunchScreen.storyboard */,
+				EDC004982D7E4CA5009698E2 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +118,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EDC0044D2D7E4487009698E2 /* PetTranslator */,
 			);
 			name = PetTranslator;
 			packageProductDependencies = (
@@ -122,6 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC004A02D7E4CA5009698E2 /* Assets.xcassets in Resources */,
+				EDC004A22D7E4CA5009698E2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +177,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC0049D2D7E4CA5009698E2 /* ViewController.swift in Sources */,
+				EDC0049E2D7E4CA5009698E2 /* AppDelegate.swift in Sources */,
+				EDC0049F2D7E4CA5009698E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC0049A2D7E4CA5009698E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC004992D7E4CA5009698E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDC0045F2D7E4488009698E2 /* Debug */ = {
@@ -147,7 +206,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A673JD59FG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetTranslator/Info.plist;
+				INFOPLIST_FILE = PetTranslator/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -178,7 +237,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A673JD59FG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetTranslator/Info.plist;
+				INFOPLIST_FILE = PetTranslator/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
