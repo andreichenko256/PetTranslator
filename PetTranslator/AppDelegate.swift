@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  PetTranslator
-//
-//  Created by Kyrylo on 09.03.2025.
-//
-
 import UIKit
 
 @main
