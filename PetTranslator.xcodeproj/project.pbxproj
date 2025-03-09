@@ -12,6 +12,9 @@
 		EDC0049F2D7E4CA5009698E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0049B2D7E4CA5009698E2 /* SceneDelegate.swift */; };
 		EDC004A02D7E4CA5009698E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC004972D7E4CA5009698E2 /* Assets.xcassets */; };
 		EDC004A22D7E4CA5009698E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0049A2D7E4CA5009698E2 /* LaunchScreen.storyboard */; };
+		EDC004AC2D7E51CE009698E2 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC004AB2D7E51CE009698E2 /* GradientBackground.swift */; };
+		EDC004AE2D7E5251009698E2 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC004AD2D7E5251009698E2 /* K.swift */; };
+		EDC004B22D7E5395009698E2 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC004B12D7E5390009698E2 /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EDC004982D7E4CA5009698E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC004992D7E4CA5009698E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDC0049B2D7E4CA5009698E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC004AB2D7E51CE009698E2 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientBackground.swift; path = PetTranslator/GradientBackground.swift; sourceTree = SOURCE_ROOT; };
+		EDC004AD2D7E5251009698E2 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		EDC004B12D7E5390009698E2 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		EDC004952D7E4CA5009698E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EDC004AB2D7E51CE009698E2 /* GradientBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +83,8 @@
 		EDC0049C2D7E4CA5009698E2 /* PetTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				EDC004B02D7E535A009698E2 /* Extensions */,
+				EDC004AD2D7E5251009698E2 /* K.swift */,
 				EDC004A32D7E4D14009698E2 /* Application */,
 				EDC004932D7E4CA5009698E2 /* Models */,
 				EDC004952D7E4CA5009698E2 /* Views */,
@@ -102,6 +111,14 @@
 				EDC004982D7E4CA5009698E2 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDC004B02D7E535A009698E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDC004B12D7E5390009698E2 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC004AC2D7E51CE009698E2 /* GradientBackground.swift in Sources */,
+				EDC004AE2D7E5251009698E2 /* K.swift in Sources */,
 				EDC0049D2D7E4CA5009698E2 /* ViewController.swift in Sources */,
+				EDC004B22D7E5395009698E2 /* UIColor+Hex.swift in Sources */,
 				EDC0049E2D7E4CA5009698E2 /* AppDelegate.swift in Sources */,
 				EDC0049F2D7E4CA5009698E2 /* SceneDelegate.swift in Sources */,
 			);
